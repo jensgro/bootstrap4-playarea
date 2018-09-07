@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap4-playarea",
+  "version": "1.0.0",
+  "description": "Kleines Projekt, um Bootstrap 4 auszuprobieren.",
+  "main": "index.js",
+  "author": "Jens Grochtdreis",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "*",
+    "grunt": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-postcss": "*",
+    "grunt-sass": "*",
+    "load-grunt-tasks": "^4.0.0",
+    "node-sass": "*"
+  }
+}
