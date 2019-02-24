@@ -6,7 +6,7 @@
   "author": "Jens Grochtdreis",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "*",
+    "bootstrap": ">=4.3.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.4"
   },
