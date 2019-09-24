@@ -11,11 +11,11 @@
     "popper.js": ">=1.14.7"
   },
   "devDependencies": {
-    "autoprefixer": "*",
+    "autoprefixer": "^9.6.1",
     "grunt": "^1.0.4",
     "grunt-contrib-watch": "*",
     "grunt-postcss": "*",
-    "grunt-sass": "*",
+    "grunt-sass": "^3.1.0",
     "load-grunt-tasks": "^4.0.0",
     "node-sass": "^4.12.0"
   }
