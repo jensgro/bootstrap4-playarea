@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test 1</title>
+    <!-- Austauschen gegen die eigene, schmalere CSS-Datei -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .siteheader {padding: 20px 60px;}
+/* 
+        .image-text-linkliste__item div {}
+        .image-text-linkliste__item img {} */
+        .image-text-linkliste__item {
+            display: flex;
+        }
+        .image-text-linkliste__image {
+            flex: 0 0 100px;
+        }
+        .image-text-linkliste__text {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header class="siteheader">
+            <h1>Larirafiri, usw.</h1>
+            <img src="makemylogobigger.jpg" alt="">
+        </header>
+    </section>
+    <section class="intro">
+        <div class="container">
+        <div class="jumbotron">
+                <h1 class="display-2">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for
+                                calling extra attention to featured content or information.</p>
+                <hr class="my-2">
+                <p>It uses utility classes for typography and
+                    spacing to space content out within the larger container.</p>
+                </div>
+                      
+        </div>
+    </section>
+    <section>
+        <!-- Suchformular -->
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <label for="id1">Suchbegriff
+                    </label><input type="text" class="form-control" id="id1">
+                </div>
+                <!-- /.form-group -->
+                <div class="form-group">
+                    <label for="id2">Standort</label>
+                    <select name="" id="id2">
+                        <option value="">Koblenz</option>
+                        <option value="">Mainz</option>
+                        <option value="">Mayen</option>
+                        <option value="">Neustadt</option>
+                        <option value="">Trier</option>
+                    </select>
+                </div>
+                <!-- /.form-group -->
+            </form>
+        </div>
+    </section>
+    <section class="userservice">
+        <div class="container">
+            <ul class="image-text-linkliste">
+                <li class="image-text-linkliste__item">
+                    <img src="" alt="" class="image-text-linkliste__image">
+                    <div class="image-text-linkliste__text"></div>
+                </li>
+                <li class="image-text-linkliste__item image-text-linkliste__item--supertoll">
+                    <img src="" alt="" class="image-text-linkliste__image image-text-linkliste__item--nochtoller">
+                    <div class="image-text-linkliste__text image-text-linkliste__item--supertoll-echt"></div>
+                </li>
+                <li class="image-text-linkliste__item"></li>
+                <li class="image-text-linkliste__item"></li>
+                <li class="image-text-linkliste__item"></li>
+                <li class="image-text-linkliste__item"></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>kleine Linkliste</h2>
+        <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#!">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Link</a>
+                </li>
+                <li class="nav-item ml-auto">
+                  <a class="nav-link" href="#!">Link</a>
+                </li>
+              </ul>
+              
+    </section>
+    <section>
+        Footer (braucht jeder!)
+    </section>
+
+   
+</body>
+
+
+</html>
